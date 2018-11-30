@@ -73,14 +73,13 @@ body, html{
 .dashboard-sideBar{
 	left: 0;
 	z-index: 2;
-	background-image: url('../assets/img/puma1.jpg');
-	border-right: 0px solid rgba(0, 0, 255, .3);
+	border-right: 0px solid  rgba(3, 46, 202, 0.9);
 	overflow: hidden;
 }
 .dashboard-sideBar-ct{
 	position: relative;
 	height: 100%;
-	background-color: rgba(28, 168, 187, .9);
+	background-color: #183F60;
 	padding: 0 10px;
 	padding-bottom: 30px;
 }
@@ -90,7 +89,8 @@ body, html{
 	line-height: 50px;
 	color: #E1F5F2;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 20px;
+	box-shadow: black 1px ;
 }
 .dashboard-sideBar-title{
 	position: relative;
@@ -186,7 +186,7 @@ body, html{
 	outline: none;
 }
 .dashboard-sideBar-Menu > li > ul > li > a:hover{
-	border-left: 3px solid #37E3E5;
+	border-left: 3px solid rgb(39, 51, 219);
 	color: #37E3E5;
 }
 /*contentPage*/
@@ -206,7 +206,7 @@ body, html{
 	outline: none;
 }
 .dashboard-Navbar{
-	background-color: #14A0BC;
+	background-color: #183F60;
 	overflow: hidden;
 }
 .dashboard-Navbar > ul >li,
@@ -229,7 +229,7 @@ body, html{
 	position: absolute;
 	top: 7px;
 	right: 6px;
-	background-color: #0670BA;
+	background-color: red;
 	transition: all .3s ease-in-out;
 }
 .dashboard-Navbar > ul > li > a:hover span.badge{
@@ -279,6 +279,10 @@ body, html{
 .div-table-row-list .div-table-cell{ border: none; }
 .div-table-row-list{ border: none; }
 .div-table-row-list .div-table-cell:first-child{ border-left: none; }
+
+#accionesMatricula{
+	background-color: rgb(218, 218, 45);
+}
 
 /* ============= Estilos catalog ============= */
 .list-catalog{
@@ -596,7 +600,7 @@ input.material-control:focus ~ .bar:before, input.material-control:focus ~ .bar:
 		left: 0;
 	}
 	.dashboard-sideBar-ct{
-		background-color: #41BFD6;
+		background-color: #183F60;
 		border-right: 1px solid rgba(255, 255, 255, .3);
 		z-index: 3;
 		max-width: 270px;

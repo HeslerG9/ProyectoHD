@@ -4,98 +4,14 @@
 	<title>Sistema de matrícula</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../public/css/main.css">
-	<link href="../public/img/unah10.png" rel="icon">
+	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
+	<link href="../matri-landingpage/img/unah10.png" rel="icon">
 </head>
 <body>
-	<!-- SideBar -->
-	<section class="full-box cover dashboard-sideBar">
-		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
-		<div class="full-box dashboard-sideBar-ct">
-			<!--SideBar Title -->
-			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
-				UNAH<i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
-			</div>
-			<!-- SideBar User info -->
-			<div class="full-box dashboard-sideBar-UserInfo">
-				<figure class="full-box">
-					<img src="../public/assets/img/user.png" alt="UserIcon">
-					<figcaption class="text-center text-titles">Sistema de Matrícula</figcaption>
-				</figure>
-				<ul class="full-box list-unstyled text-center">
-					<!--
-					<li>
-						<a href="#!">
-							<i class="zmdi zmdi-settings"></i>
-						</a>
-					</li>
-					-->
-					<li>
-						<a href="#!" class="btn-exit-system">
-							<i class="zmdi zmdi-power " ></i>  Cerrar sesión
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!-- SideBar Menu -->
-			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
-				<li>
-					<a href="home.html">
-						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Inicio
-					</a>
-				</li>
-				<li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-assignment zmdi-hc-fw"></i> Calificaciones <i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-					<ul class="list-unstyled full-box">
-						<li>
-							<a href="caliPeriod.html"><i class="zmdi zmdi-badge-check zmdi-hc-fw"></i>Calificaciones del Periodo</a>
-						</li>
-						<li>
-							<a href="academicHis.html"><i class="zmdi zmdi-assignment-check zmdi-hc-fw"></i>Historial Académico</a>
-						</li>
-						<li>
-								<a href=""><i class="zmdi zmdi-thumb-down zmdi-hc-fw"></i>Evaluación docente</a>
-							</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> Matrícula <i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-					<ul class="list-unstyled full-box">
-						<li>
-							<a href="addClass.html"><i class="zmdi zmdi-collection-plus zmdi-hc-fw"></i>Adicionar asignatura</a>
-						</li>
-						<li>
-							<a href="cancelClass.html"><i class="zmdi zmdi-delete zmdi-hc-fw"></i> Cancelar Asignatura</a>
-						</li>
-						<li >
-							<a href="listclass.html"><i class="zmdi zmdi-spellcheck zmdi-hc-fw"></i>Asignaturas matrículadas</a>
-						</li>
-						<li>
-							<a href="classEsp.html"><i class="zmdi zmdi-assignment-alert zmdi-hc-fw"></i>Lista de espera</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-card zmdi-hc-fw"></i> Cambia tú contraseña<i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-					<ul class="list-unstyled full-box">
-						<li>
-							<a href=""><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Acceso al sistema</a>
-						</li>
-						<li>
-							<a href=""><i class="zmdi zmdi-email zmdi-hc-fw"></i> Correo institucional</a>
-						</li>
-					</ul>
-				</li>
-				
-			</ul>
-		</div>
-	</section>
+	<!-- Dashbar incluido con la funcion de PHP -->
+	<?php
+	include("sidebar.html")
+    ?>
 
 	<!-- Content page-->
 	<section class="full-box dashboard-contentPage">
@@ -128,7 +44,7 @@
 		<div class="container-fluid"  style="margin: 50px 0;">
             <div class="row">
                 <div class="col-xs-6 col-sm-2 col-md-3">
-                    <img src="../public/assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
+                    <img src="../matri-landingpage/assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
                 <div class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
                         <div><span>Nombre:</span> <small>Allan Rafael Velasquez Ordoñez</small></div>
@@ -187,13 +103,13 @@
 
 	
 	<!--====== Scripts -->
-	<script src="../public/js/jquery-3.1.1.min.js"></script>
-	<script src="../public/js/sweetalert2.min.js"></script>
-	<script src="../public/js/bootstrap.min.js"></script>
-	<script src="../public/js/material.min.js"></script>
-	<script src="../public/js/ripples.min.js"></script>
-	<script src="../public/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="../public/js/main.js"></script>
+	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
+	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
+	<script src="../matri-landingpage/js/bootstrap.min.js"></script>
+	<script src="../matri-landingpage/js/material.min.js"></script>
+	<script src="../matri-landingpage/js/ripples.min.js"></script>
+	<script src="../matri-landingpage/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="../matri-landingpage/js/main.js"></script>
 	<script>
 		$.material.init();
 	</script>
