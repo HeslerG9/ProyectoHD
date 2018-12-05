@@ -59,7 +59,7 @@
 					<img src="../matri-landingpage/assets/img/institution.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
 				</div>
 					<div class="col-xs-12 col-sm-8 col-md-8 text-justify lead">
-					En este apartado se podrá registrar nuevas carreras
+					Registrar una Nueva Carrera con el siguiente formulario
 				</div>
 			</div>
 		</div>
@@ -82,50 +82,56 @@
 						   <legend>Datos de las carreras</legend>
 						   <br><br>
 							<div class="group-material">
-								<input type="text" class="material-control tooltips-general" placeholder="ID de carrera" pattern="[0-9]{1,10}" required="required" maxlength="6" data-toggle="tooltip" data-placement="top" title="Id carrera">
+								<input type="text" class="material-control tooltips-general" placeholder="ID de carrera" id="codigoCarrera" required="required" maxlength="6" data-toggle="tooltip" data-placement="top" title="Id carrera">
 								<span class="highlight"></span>
 								<span class="bar"></span>
 								<label>ID</label>
 							</div>						
     						<div class="group-material">
-								<input type="text" class="material-control tooltips-general" placeholder="Código alterno" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ0-9 ]{3,10}" required="required" maxlength="10" data-toggle="tooltip" data-placement="top" title="codigo alterno">
+								<input type="text" class="material-control tooltips-general" placeholder="Código centro de Estudio" id="codigoCentroEstudio" required="required" maxlength="10" data-toggle="tooltip" data-placement="top" title="codigo alterno">
 								<span class="highlight"></span>
 								<span class="bar"></span>
-								<label>Código alterno</label>
+								<label>Código centro de Estudio</label>
 							</div>
 							<div class="group-material">
-								<input type="text" class="material-control tooltips-general" placeholder="Nombre de la carrera" required="required" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{5,50}" maxlength="50" data-toggle="tooltip" data-placement="top" title="Carrera">
+								<input type="text" class="material-control tooltips-general" placeholder="Nombre de la carrera" id="nombreCarrera" required="required"  maxlength="50" data-toggle="tooltip" data-placement="top" title="Carrera">
 								<span class="highlight"></span>
 								<span class="bar"></span>
 								<label>Nombre de la carrera</label>
 							</div>
 							<div class="group-material">
-								<input type="text" class="material-control tooltips-general" placeholder="Cantidad de asignaturas" pattern="[0-9]{1,10}" required="required"  maxlength="3" data-toggle="tooltip" data-placement="top" title="Cantidad de asignaturas">
+								<input type="text" class="material-control tooltips-general" placeholder="Código facultad" id="codigoFacultad" required="required" maxlength="10" data-toggle="tooltip" data-placement="top" title="codigo alterno">
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label>Código facultad</label>
+							</div>
+							<div class="group-material">
+								<input type="text" class="material-control tooltips-general" placeholder="Código Departamento" id="codigoDepartamento" required="required" maxlength="10" data-toggle="tooltip" data-placement="top" title="codigo alterno">
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label>Código Departamento</label>
+							</div>
+							<div class="group-material">
+								<input type="text" class="material-control tooltips-general" placeholder="Cantidad de asignaturas" id="CantidadAsignaturas" required="required"  maxlength="3" data-toggle="tooltip" data-placement="top" title="Cantidad de asignaturas">
 								<span class="highlight"></span>
 								<span class="bar"></span>
 								<label>Cantidad de asignaturas</label>
 							</div>
 							<div class="group-material">
-								<input type="text" class="material-control tooltips-general" placeholder="Cantidad de UV" pattern="[0-9]{1,10}" required="required"  maxlength="3" data-toggle="tooltip" data-placement="top" title="UV">
+								<input type="text" class="material-control tooltips-general" placeholder="Cantidad de UV" id="CantidadUv" required="required"  maxlength="3" data-toggle="tooltip" data-placement="top" title="UV">
 								<span class="highlight"></span>
 								<span class="bar"></span>
 								<label>Cantidad de unidades valorativas</label>
 							</div>
 							<div class="group-material">
-								<input type="text" class="material-control tooltips-general" placeholder="Nombre de la facultad" required="required" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" data-toggle="tooltip" data-placement="top" title="facultad">
-								<span class="highlight"></span>
-								<span class="bar"></span>
-								<label>Facultad</label>
-							</div>
-							<div class="group-material">
-									<input type="text" class="material-control tooltips-general" placeholder="Grado" required="required" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" data-toggle="tooltip" data-placement="top" title="grado">
+									<input type="text" class="material-control tooltips-general" placeholder="Grado" required="required" id="Grado" maxlength="50" data-toggle="tooltip" data-placement="top" title="grado">
 									<span class="highlight"></span>
 									<span class="bar"></span>
 									<label>Grado</label>
 								</div>
 							<p class="text-center">
-								<button type="reset" class="btn btn-info" style="margin-right: 20px;"><i class="zmdi zmdi-roller"></i> &nbsp;&nbsp; Limpiar</button>
-								<button type="button" class="btn btn-primary"><i class="zmdi zmdi-floppy"></i> &nbsp;&nbsp; Guardar</button>
+								<button type="reset" class="btn btn-info" style="margin-right: 20px;"><i class="zmdi zmdi-roller"></i> Limpiar</button>
+								<button type="button" id="btn-RegistrarCarrera" class="btn btn-primary"><i ></i> Guardar</button>
 							</p> 
 						</div>
 					</div>
@@ -134,7 +140,16 @@
 		</div>
 	</section>
 
+   <script>$("#btn-RegistrarCarrera").click(function(){
+	$("#loading").fadeIn(50);
+	var parametros =`codigoCarrera=${$("#codigoCarrera").val()}&codigoCentroEstudio=${$("#codigoCentroEstudio").val()}&nombreCarrera=${$("#nombreCarrera").val()}&codigoFacultad=${$("#codigoFacultad").val()}&codigoDepartamento=${$("#codigoDepartamento").val()}&CantidadAsignaturas=${$("#CantidadAsignaturas").val()}&CantidadUv=${$("#CantidadUv").val()}&Grado=${$("#Grado").val()}`;
 
+	console.log("El cliente envía esta información: "+parametros);
+
+	
+		}
+	);
+</script>
 	
 
 	<!-- Notifications area -->
@@ -147,13 +162,14 @@
 		</div>
 	</section>
 	<!--====== Scripts -->
+	<script src="js/controlador.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>
 	<script src="../matri-landingpage/js/material.min.js"></script>
 	<script src="../matri-landingpage/js/ripples.min.js"></script>
 	<script src="../matri-landingpage/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="../matri-landingpage/js/main.js"></script>
+
 	<script>
 		$.material.init();
 	</script>
