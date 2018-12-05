@@ -70,6 +70,7 @@
                 </div>
             </div>
         </div>
+
 		<div class="container-fluid">
             <div class="container-flat-form">
                 <div class="title-flat-form title-flat-blue">Registrar un nuevo adminstrador</div>
@@ -184,14 +185,16 @@
 
 		</div>
 	</section>
-	<!--====== Scripts -->
+    <!--====== Scripts -->
+    <script src="../matri-landingpage/js/npm.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>
 	<script src="../matri-landingpage/js/material.min.js"></script>
 	<script src="../matri-landingpage/js/ripples.min.js"></script>
 	<script src="../matri-landingpage/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="../matri-landingpage/js/main.js"></script>
+    <script src="../matri-landingpage/js/main.js"></script>
+    
 	<script>
 		$.material.init();
 	</script>

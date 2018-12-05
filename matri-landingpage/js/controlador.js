@@ -108,6 +108,8 @@ var parametros ="usuario="+$('#usuario').val()
 }
 */
 
+
+
 $("#btn-acceder").click(function(){
     $.ajax({
         url:"/login-admin",

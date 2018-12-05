@@ -9,31 +9,7 @@
 </head>
 <body>
 	
-	<?php
-    include("sidebar.html")
-    ?>
-		<!-- Content page-->
-		<section class="full-box dashboard-contentPage">
-			<!-- NavBar -->
-			<nav class="full-box dashboard-Navbar">
-				<ul class="full-box list-unstyled text-right">
-					<li class="pull-left">
-						<a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
-					</li>
-					<li>
-						<a href="#!" class="btn-Notifications-area">
-							<i class="zmdi zmdi-notifications-none"></i>
-							<span class="badge">2</span>
-						</a>
-					</li>
-					<li>
-						<a href="#!" class="btn-search">
-							<i class="zmdi zmdi-search"></i>
-						</a>
-					</li>
-					
-				</ul>
-			</nav>
+	
 		
 		<!-- Content page -->
 		<div class="container">
@@ -88,10 +64,10 @@
 								<label>ID</label>
 							</div>						
     						<div class="group-material">
-							<input type="text" class="material-control tooltips-general" placeholder="ID de carrera" id="codigoCarrera" required="required" maxlength="6" data-toggle="tooltip" data-placement="top" title="Id carrera">
+								<input type="text" class="material-control tooltips-general" placeholder="Código centro de Estudio" id="codigoCentroEstudio" required="required" maxlength="10" data-toggle="tooltip" data-placement="top" title="codigo alterno">
 								<span class="highlight"></span>
 								<span class="bar"></span>
-								<label>ID</label>
+								<label>Código centro de Estudio</label>
 							</div>
 							<div class="group-material">
 								<input type="text" class="material-control tooltips-general" placeholder="Nombre de la carrera" id="nombreCarrera" required="required"  maxlength="50" data-toggle="tooltip" data-placement="top" title="Carrera">
@@ -138,20 +114,8 @@
 				</form>
 			</div>
 		</div>
-	</section>
-	
-
-	<!-- Notifications area -->
-	<section class="full-box Notifications-area">
-		<div class="full-box Notifications-bg btn-Notifications-area"></div>
-		<div class="full-box Notifications-body">
-			<div class="Notifications-body-title text-titles text-center">
-				Notificationes <i class="zmdi zmdi-close btn-Notifications-area"></i>
-			</div>
-		</div>
-	</section>
-	<!--====== Scripts -->
-	
+    </section>
+    script src="../matri-landingpage/js/jquery.min.js"></script>
 	<script src="../matri-landingpage/js/material.min.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
@@ -160,10 +124,5 @@
 	<script src="../matri-landingpage/js/ripples.min.js"></script>
 	<script src="../matri-landingpage/js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="../matri-landingpage/js/main.js"></script>
-	
-   
-	<script>
-		$.material.init();
-	</script>
 </body>
 </html>

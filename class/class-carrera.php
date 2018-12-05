@@ -101,7 +101,7 @@ class Carrera{
 	
 	
 	    public function registrarCarrera (){
-		$archivo = fopen("./bd-json/carrera.json","a+");
+		$archivo = fopen("../bd-json/carrera.json","a+");  
 		$arreglo = array();
 		$arreglo["codigoCarrera"]=$this->codigoCarrera;
         $arreglo["codigoCE"]=$this->codigoCE; 
