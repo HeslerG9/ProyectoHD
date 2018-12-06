@@ -15,7 +15,7 @@
     <link href="img/unah10.png" rel="icon">
   </head>
 
-  <body>      
+  <body id="BodyRegistro">      
     <div class="my-content" >
         <div class="container" > 
             <div class="row">
@@ -54,7 +54,7 @@
                             <input type="text" name="txt-telefono" placeholder="Número de teléfono" pattern="^[9|8|2]\d{7,7}$" required="required" maxlength="8" class="form-control" id="form-telefono" title="solamente números">
                         </div>
                         <div class="form-group">
-                          <textarea type="text-area" name="form-direccion" placeholder="Dirección..." pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{8,60}" maxlength="60" required="required" class="form-control" id="form-direccion" rows="3"></textarea>
+                          <textarea id="text" type="text-area" name="form-direccion" placeholder="Dirección..." pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{8,60}" maxlength="60" required="required" class="form-control" id="form-direccion" rows="3"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="email" name="form-email" placeholder="Correo electrónico..." class="form-control" id="form-email"  data-rule="email" required="required" data-msg="Ingresar correo electronico valido" title="correo electronico incorrecto">

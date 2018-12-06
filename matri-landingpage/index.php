@@ -35,7 +35,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#hero"><img src="img/logo-unah.png" width="35" height="35" alt="" title="" /></img>  UNAH</a></h1>
+        <h1><a href="#hero"><img src="img/unah10.png" width="35" height="35" alt="" title="" /></img>  UNAH</a></h1>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -74,7 +74,7 @@
   <section id="hero">
     <div class="hero-container">
       <h1>Bienvenid@</h1>
-      <h2>Sistema de Matrícuala de la Universidad Nacional Autónoma de Honduras</h2>
+      <h2>Sistema de Matrícula de la Universidad Nacional Autónoma de Honduras</h2>
       <a href="#about" class="btn-get-started">Echa un vistazo</a>
     </div>
   </section><!-- #hero -->
@@ -146,60 +146,340 @@
     <!--==========================
       Services Section
     ============================-->
-    <section id="services">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">Servicios</h3>
-          <p class="section-description">En este apartado se describen de manera resumida las funcionalidades con las que cuenta el sistema</p>
+    <div class="container">
+
+      <!-- row -->
+      <div class="row">
+        <div class="section-header ">
+         <h1> <b>Centros regionales</b>  </h1>
+          <p class="lead" >   Abriendo nuevas caminos para la Educación.</p>
         </div>
+      </div>
+      <!-- /row -->
+
+      <!-- courses -->
+      <div id="courses-wrapper">
+
+        <!-- row -->
         <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-              <h4 class="title"><a href="">Matricula de Clases</a></h4>
-              <p class="description">El estudiante podra matricular las clases que necesite</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="box">
-              <!--<div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>-->
-              <h4 class="title"><a href="">Usuarios</a></h4>
-              <p class="description">El administrador del sistema podrá registrar estudiantes,docentes y demas empleados según sea necesario</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="box">
-              <!--<div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>-->
-              <h4 class="title"><a href="">Registro de calificaciones</a></h4>
-              <p class="description">El docente podrá ingresar las notas respectivas de sus alumnos</p>
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/cr/unahvs.jpg" alt="" >
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">UNAH-VS</a>
+              <div class="course-details">
+                <span class="course-category">Valle de Sula</span>
+                
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="box">
-                <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
-              <h4 class="title"><a href="">Administración</a></h4>
-              <p class="description">El administrador del sistema podrá llevar un registro de la cantidad de estudiantes matriculados, docentes disponibles entre otros datos</p>
+          <!-- /single course -->
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/cr/curc.jpg" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">UNAH-CURC </a>
+              <div class="course-details">
+                <span class="course-category">Centro Regional de </span>
+                
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="box">
-              <!--<div class="icon"><a href=""><i class="fa fa-road"></i></a></div>-->
-              <h4 class="title"><a href="">Inicios de Sesión</a></h4>
-              <p class="description">Cada tipo de usuario ingresará con su respectiva cuenta y clave y tendán ciertos privilegios</p>
+          <!-- /single course -->
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/cr/curla.jpg" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">UNAH-CURLA</a>
+              <div class="course-details">
+                <span class="course-category">Centro Regional Litoral Atlantico</span>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="box">
-              <!--<div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>-->
-              <h4 class="title"><a href="">Visualización</a></h4>
-              <p class="description">El estudiante visualizará su historial de calificaciones</p>
+          <!-- /single course -->
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/cr/curlp.jpg" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">UNAH-CURLP</a>
+              <div class="course-details">
+                <span class="course-category">Centro Regional de</span>
+                
+              </div>
             </div>
           </div>
+          <!-- /single course -->
+
         </div>
+        <!-- /row -->
+
+        <!-- row -->
+        <div class="row">
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/cr/curno.jpg" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">UNAH-CURNO</a>
+              <div class="course-details">
+                <span class="course-category">Centro Regional de</span>
+              
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/cr/curoc.jpg" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">UNAH-CUROC</a>
+              <div class="course-details">
+                <span class="course-category">Centro Regional de </span>
+                
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/cr/danli.jpg" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">UNAH-TEC Danli</a>
+              <div class="course-details">
+                <span class="course-category">Centro Tecnológico Danli</span>
+                
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/cr/aguan2.jpg" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">UNAH-TEC AGUÁN</a>
+              <div class="course-details">
+                <span class="course-category">Centro Tecnológico Aguan</span> 
+                
+              </div>
+            </div>
+          </div>
+          <br>
+          <!-- /single course -->
+
+        </div>
+        <!-- /row -->
 
       </div>
-    </section><!-- #services -->
+      <!-- /courses -->
+
+      
+
+    </div>
+    <!-- container -->
+
+  </div>
+  <!-- /Courses -->
+
+
+
+  <!-- Courses -->
+  <div id="courses" class="section">
+
+    <!-- container -->
+    <div class="container">
+
+      <!-- row -->
+      <div class="row">
+        <div class="section-header ">
+          <br>
+           <h1> <b>Facultades</b>  </h1>
+          <p class="lead" >   Abriendo nuevas caminos para la Educación.</p>
+        </div>
+      </div>
+      <!-- /row -->
+
+      <!-- courses -->
+      <div id="courses-wrapper">
+
+        <!-- row -->
+        <div class="row">
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/facultades/FCM.jpg" alt="" >
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">Facultad de Ciencias Médicas</a>
+              <div class="course-details">
+                
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- /single course -->
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/facultades/economicas.png" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">Facultad de Economia </a>
+              <div class="course-details">
+              
+                
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/facultades/ingenieria.png" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">Facultad de Ingenieria</a>
+              <div class="course-details">
+            
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/facultades/ciencias.png" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">Facultad de Ciencias</a>
+              <div class="course-details">
+          
+                
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+        </div>
+        <!-- /row -->
+
+        <!-- row -->
+        <div class="row">
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/facultades/humanidades.png" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">Facultad de Humanidades</a>
+              <div class="course-details">
+                
+              
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/facultades/juridicas.png" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">Facultad de Derecho</a>
+              <div class="course-details">
+              
+                
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/facultades/quimica.png" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">Facultad de Química</a>
+              <div class="course-details">
+            
+                
+              </div>
+            </div>
+          </div>
+          <!-- /single course -->
+
+
+          <!-- single course -->
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="course">
+              <a href="#" class="course-img">
+                <img src="./img/facultades/sociales.png" alt="">
+                <i class="course-link-icon fa fa-link"></i>
+              </a>
+              <a class="course-title" href="#">Facultad de Ciencias Sociales</a>
+              <div class="course-details">
+                
+                
+              </div>
+            </div>
+          </div>
+          
+          <!-- /single course -->
+
+        </div>
+        <!-- /row -->
+
+      </div>
+      <!-- /courses -->
+
+      
+
+    </div>
 
     <!--==========================
       Facts Section
@@ -223,7 +503,7 @@
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">10</span>
+            <span data-toggle="counter-up">08</span>
             <p>Facultades</p>
   				</div>
 
@@ -291,48 +571,7 @@
     </section><!-- #call-to-action -->
     
 
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">Contacto y Ubicación</h3>
-          <p class="section-description">Contacatar con administración de UNAH</p>
-        </div>
-      </div>
-
-      <div id="google-map" data-latitude="14.0850" data-longitude="-87.1660"></div>
-
-      <div class="container wow fadeInUp">
-        <div class="row justify-content-center">
-
-          <div class="col-lg-3 col-md-4">
-
-            <div class="info">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>Blvd. Suyapa Ciudad Universitaria, Tegucigalpa M.D.C. <br>Honduras, Centroamérica</p>
-              </div>
-
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>info@unah.edu.hn</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>2216-6100, 2216-5100<br> 2216-3000, 2216-7000</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="https://twitter.com/UNAH_Oficial" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="https://es-la.facebook.com/unah.edu.hn/" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.instagram.com/unahoficial/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i></a>
-            </div>
-
-          </div>
+    
           <!--
 
           <div class="col-lg-5 col-md-8">
@@ -369,92 +608,21 @@
 
   </main>
 
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
 
-      </div>
-    </div>
+       
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Derechos <strong>Reservados</strong> 2018
-      </div>
-      <div class="credits">
-      </div>
-    </div>
-  </footer><!-- #footer -->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-  <!-- Vetaa mdadal modal
-
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Formulario de registro</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="myform-bottom">
-              <form role="form" action="" method="post" class="">
-                <div class="form-group">
-                    <input type="text" name="txt-nombre" placeholder="Nombres..."  pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{4,30}" maxlength="30"  required="required" class="form-control" id="form-firtsname" title="solamente letras">
-                    <!-<div class="valid-feedback">Esta bien</div>
-                    <div class="invalid-feedback">Ingrese el nombre</div>->
-                </div>
-                <div class="form-group">
-                    <input type="text" name="form-lastname" placeholder="Apellidos..." class="form-control" id="form-lastname" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{5,30}" maxlength="30"  required="required" data-toggle="tooltip" data-placement="top" title="solamente letras">
-                </div>
-                <div class="form-group">
-                    <input type="text" name="txt-identidad" placeholder="Número de Identidad (ejm:0801199007462)" pattern="^[1|0]\d{12,12}$" required="required" maxlength="13" class="form-control" id="form-identidad" title="solamente números">
-                </div>    
-                 <div class="form-group">
-                    <input type="text" name="txt-telefono" placeholder="Número de teléfono" pattern="^[9|8|2]\d{7,7}$" required="required" maxlength="8" class="form-control" id="form-telefono" title="solamente números">
-                </div>
-                <div class="form-group">
-                  <textarea type="text-area" name="form-direccion" placeholder="Dirección..." pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{8,60}" maxlength="60" required="required" class="form-control" id="form-direccion" rows="3"></textarea>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="form-email" placeholder="Correo electrónico..." class="form-control" id="form-email"  data-rule="email" required="required" data-msg="Ingresar correo electronico valido" title="correo electronico incorrecto">
-                  </div>
-                <div class="form-group">
-                 <label class="form-group" >Fecha de nacimiento</label>
-                  <input class="form-control" required="required" type="date">
-                </div>
-               <div>
-                  <label class="form-group">Genero</label>
-                </div>
-                <div class="form-group col-sm-6 col-xl-6 " >
-                  <input type="radio" name="rbt-genero" id="rbt-femenino" required="required"><label for="rbt-femenino">Femenino</label>
-                </div>
-                <div class="form-group col-sm-6 col-xl-6">
-                  <input type="radio" name="rbt-genero" id="rbt-masculino" ><label for="rbt-masculino">Masculino</label>
-                </div>
-                <div>
-                  <label class="form-group">Estado civil</label>
-                </div>
-                <div class="form-group col-sm-6 col-xl-6 ">
-                  <input type="radio" name="rbt-estado" id="rbt-soltero"required="required"><label for="rbt-soltero">Soltero</label>
-                </div>
-                <div class="form-group col-sm-6 col-xl-6">
-                  <input type="radio" name="rbt-estado" id="rbt-casado"><label for="rbt-casado">Casado</label>
-                </div>
-          <div class="modal-footer">
-            <button type="button" class="mybtn" data-dismiss="modal">Cerrar</button>
-            <button type="submit" class="mybtn" onclick="validar();">Registrar</button>
-          </div>
+<br>
+            
         </div>
-      </div>
-    </div>
-  -->
+        <!-- /footer nav -->
+        <footer id="footer" class="section">
+            <?php 
+            include ("footer.html")
+            ?>
+            </footer>
+ 
+  <!-- #footer -->
 
-  <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
