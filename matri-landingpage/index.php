@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+f<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -80,6 +80,60 @@
   </section><!-- #hero -->
 
   <main id="main">
+ 
+
+ <!--==========================
+      INICIO Prueba
+    ============================-->
+    <section id="bien">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Bienvenidos a la UNAH</h2>
+            <p>
+              LUCEM ASPICIO
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+            <i class="feature-icon fa fa-book"></i>
+              <h4 class="title"><a href="">OFERTA ACADEMICA</a></h4>
+              <p class="description">Mas de 50 Carreras en funcionamiento  y <br>
+								39 Nuevas carreras y 89 En Procesos de formulación</p>
+            </div>
+            
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+            <i class="feature-icon fa fa-desktop"></i>
+              <h4 class="title"><a href="">CLASES EN LINEA</a></h4>
+              <p class="description">127 Clases en linea y 3 Carreras completas </p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+            <i class="feature-icon 	fa fa-mortar-board"></i>
+              <h4 class="title"><a href="">POSGRADOS</a></h4>
+              <p class="description">Ofertas en Posgrados en un 50% <br>
+									y 8 Nuevos Doctorados </p>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+						<div class="about-img">
+							<img src="./img/mapa.png" alt="" width=100%>
+							<br>
+							<h4 style="text-align:center;text-decoration-line: underline">Mapa Ciudad Universitaria</h4>
+						</div>
+					</div>
+
+         
+        </div>
+
+      </div>
+    </section><!-- #about -->
+    <!--==========================
+      FIN Prueba
+    ============================-->
 
     <!--==========================
       About Us Section

@@ -1305,3 +1305,77 @@ button.mybtn:focus {
   font-size: 13px;
   color: #ccc;
 }
+
+/* -- Feature -- */
+.feature {
+	position:relative;
+	margin-top: 1px;
+    padding-top: 2px;
+    border-right: 1px solid #d9d6d6;
+}
+
+.feature + .feature  {
+	margin-top:40px;
+}
+
+.feature .feature-icon {
+	position:absolute;
+	left:0;
+  top:0;
+ }
+  
+ .feature .feature-icon {
+	position:absolute;
+	left:0;
+	top:0;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	border-radius: 50%;
+	font-size:30px;
+	border:1px solid #EBEBEB;
+	color:rgb(34, 26, 243);
+}
+
+  /* -- About Img -- */
+  .about-img {
+    margin-top:40px;
+  }
+  
+  .about-img > img {
+    width:100%;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	border-radius: 50%;
+	font-size:30px;
+	border:1px solid #EBEBEB;
+	color:rgb(34, 26, 243);
+}
+
+.feature-content {
+	padding-left:100px;
+	
+   
+}
+
+#bien .bien-container .feature .feature-icon {
+	position:absolute;
+	left:0;
+	top:0;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	border-radius: 50%;
+	font-size:30px;
+	border:1px solid #EBEBEB;
+	color:rgb(34, 26, 243);
+} 
+
+
+
+
+
