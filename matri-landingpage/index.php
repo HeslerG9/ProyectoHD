@@ -1,4 +1,4 @@
-f<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -43,8 +43,8 @@ f<!DOCTYPE html>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Inicio</a></li>
+          <li><a href="#bien">Bienvenidos</a></li>
           <li><a href="#about">Avisos</a></li>
-          <li><a href="#services">Servicios</a></li>
           <li><a href="#portfolio">Calendarios</a></li>
           <!--<li><a data-toggle="modal" data-target="#exampleModal">Registrate</a></li>-->
          
@@ -62,7 +62,6 @@ f<!DOCTYPE html>
               <li><a href="loginadmin.html">Administrador</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
