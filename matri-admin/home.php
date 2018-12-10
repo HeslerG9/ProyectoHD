@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
 	<link href="../matri-landingpage/img/unah10.png" rel="icon">
+	<script src="../matri-landingpage/js/jquery.min.js"></script>
 </head>
 <body>
 	<?php
@@ -19,11 +20,8 @@
 				<li class="pull-left">
 					<a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
 				</li>
-				<li>
-					<a href="#!" class="btn-Notifications-area">
-						<i class="zmdi zmdi-notifications-none"></i>
-						<span class="badge">1</span>
-					</a>
+				<li class="pull-center">
+					<h4>Buscar</h4>
 				</li>
 				<li>
 					<a href="#!" class="btn-search">
@@ -144,8 +142,10 @@
 		</div>
 	</section>
 
-	
+
+
 	<!--====== Scripts -->
+	<script src="js/registroCarrera.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>

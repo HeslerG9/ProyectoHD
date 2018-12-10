@@ -186,6 +186,8 @@
 		</div>
 	</section>
     <!--====== Scripts -->
+    <script src="../matri-landingpage/js/jquery.min.js"></script>
+    <script src="js/registroCarrera.js"></script>
     <script src="../matri-landingpage/js/npm.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>

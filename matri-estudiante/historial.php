@@ -47,8 +47,8 @@
                     <img src="../matri-landingpage/assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
                 <div class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
-                        <div><span>Nombre:</span> <small>Allan Rafael Velasquez Ordoñez</small></div>
-						<div><span>Cuenta:</span> <small>20111011599</small></div>  
+                        <div><span>Nombre:</span> <small>Hesler Gamez</small></div>
+						<div><span>Cuenta:</span> <small>20161011599</small></div>  
 						<div><span>Carrera:</span> <small>Ingeniería en sistemas</small></div>    
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 text-justify lead">

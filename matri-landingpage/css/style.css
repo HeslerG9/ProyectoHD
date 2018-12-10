@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 30px 0;
+  padding: 20px 0;
   height: 92px;
   position: fixed;
   left: 0;
@@ -1289,9 +1289,9 @@ button.mybtn:focus {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #343b40;
-  padding: 30px 0;
-  color: #fff;
+	background-image: url(../img/footer-bg.png);
+	background-color: #002484;
+	background-repeat: no-repeat;
   font-size: 14px;
 }
 

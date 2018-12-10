@@ -35,7 +35,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#hero"><img src="img/unah10.png" width="35" height="35" alt="" title="" /></img>  UNAH</a></h1>
+        <h1><a href="#hero"><img src="img/unah10.png" width="25" height="38" alt="" title="" /></img>  UNAH</a></h1>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -73,9 +73,9 @@
   ============================-->
   <section id="hero">
     <div class="hero-container">
-      <h1>Bienvenid@</h1>
+      <h1>Bienvenidos</h1>
       <h2>Sistema de Matrícula de la Universidad Nacional Autónoma de Honduras</h2>
-      <a href="#about" class="btn-get-started">Echa un vistazo</a>
+      <a href="#about" class="btn-get-started">Landing page</a>
     </div>
   </section><!-- #hero -->
 
